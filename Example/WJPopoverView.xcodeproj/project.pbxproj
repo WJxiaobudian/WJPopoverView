@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1393F1649A71B7A612025A3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1393F1649A71B7A612025A3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		36743C1CFA288C20A1AB4283 /* Pods-WJPopoverView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJPopoverView_Example.release.xcconfig"; path = "Target Support Files/Pods-WJPopoverView_Example/Pods-WJPopoverView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		42BA878658F31389261A08ED /* Pods-WJPopoverView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJPopoverView_Example.debug.xcconfig"; path = "Target Support Files/Pods-WJPopoverView_Example/Pods-WJPopoverView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		52E7F4C0EA4A59577607E59F /* WJPopoverView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WJPopoverView.podspec; path = ../WJPopoverView.podspec; sourceTree = "<group>"; };
+		52E7F4C0EA4A59577607E59F /* WJPopoverView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WJPopoverView.podspec; path = ../WJPopoverView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* WJPopoverView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJPopoverView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		B19DC166E550C29D834A29BB /* Pods-WJPopoverView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJPopoverView_Tests.release.xcconfig"; path = "Target Support Files/Pods-WJPopoverView_Tests/Pods-WJPopoverView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BC2454A0E5AFBC1AFE79D4A1 /* Pods_WJPopoverView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJPopoverView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21FA14A6FB32A524D47B614 /* Pods-WJPopoverView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJPopoverView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WJPopoverView_Tests/Pods-WJPopoverView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1E91BC94C78EB632C498553 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D1E91BC94C78EB632C498553 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				C21FA14A6FB32A524D47B614 /* Pods-WJPopoverView_Tests.debug.xcconfig */,
 				B19DC166E550C29D834A29BB /* Pods-WJPopoverView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

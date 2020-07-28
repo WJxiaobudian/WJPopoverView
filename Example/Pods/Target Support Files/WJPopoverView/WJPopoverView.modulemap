@@ -1,0 +1,6 @@
+framework module WJPopoverView {
+  umbrella header "WJPopoverView-umbrella.h"
+
+  export *
+  module * { export * }
+}

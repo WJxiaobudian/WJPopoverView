@@ -1,0 +1,16 @@
+PODS:
+  - WJPopoverView (0.1.0)
+
+DEPENDENCIES:
+  - WJPopoverView (from `../`)
+
+EXTERNAL SOURCES:
+  WJPopoverView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WJPopoverView: 8233386b465d9338d553a1cdf0f66ae8e302ae14
+
+PODFILE CHECKSUM: 461a152dc7ce625125ab937a895312707b270f7f
+
+COCOAPODS: 1.9.3
